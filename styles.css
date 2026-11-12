@@ -1,0 +1,102 @@
+
+#title {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+p {
+    color: blue;
+}
+
+.card {
+    padding: 1rem;
+}
+
+#top {
+    margin: 0;
+}
+
+nav a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.btn {
+    background: var(--brand);
+    padding: var(--space);
+}
+
+.btn.primary {
+    background: green;
+}
+
+:root {
+    --brand: #1f7a5c;
+    --space: 1rem;
+}
+
+#sentence1 {
+    color: pink;
+}
+
+body {
+    background-color: gray;
+    border: 5px solid brown;
+    padding: 30px;
+    margin: 50px;
+}
+
+.bg1 {
+    background-color: powderblue;
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    float: right;
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 3px;
+    background-color: dodgerblue;
+    padding: 5px;
+}
+
+.container div {
+    background-color: white;
+    padding: 10px;
+}
+
+.container div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.container div.menu {
+    grid-area: menu;
+}
+
+.container div.content {
+    grid-area: content;
+}
+
+.container div.footer {
+    grid-area: footer;
+    text-align: center;
+}
